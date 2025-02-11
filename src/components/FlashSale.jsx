@@ -6,16 +6,19 @@ const FlashSale = () => {
   const { flashSale, searchQuery, cartItems, addToCart, removeFromCart } =
     useContext(Cart);
 
-  // Filter products based on search input
+  // For filteration of products
   const filteredProducts = flashSale.filter((product) =>
     product.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
     <>
+      {/* Title  */}
       <p className="text-[27px] px-6 w-[87%] mx-auto my-10 font-[700]">
         New Products
       </p>
+      {/* Title */}
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[84%] m-auto my-4 p-4">
         {filteredProducts.map((val) => {
           const isInCart = cartItems.some((item) => item.id === val.id);

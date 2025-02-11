@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-// import { Route } from "lucide-react";
 import HomeSection from "./components/HomeSection";
 import { IoMdClose } from "react-icons/io";
-import WishList from "./components/WishList";
 import Footer from "./components/Footer";
 import Cartt from "./components/Cartt";
 
@@ -60,8 +58,6 @@ function App() {
         <Routes>
           <Route path="/" exact element={<HomeSection />} />
           <Route path="/Cartt" element={<Cartt />} />
-
-          <Route path="/WishList" element={<WishList />} />
         </Routes>
         <Footer />
       </Router>

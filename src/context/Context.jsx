@@ -87,37 +87,6 @@ const Context = ({ children }) => {
     },
   ]);
 
-  const [newProducts, setNewProducts] = useState([
-    {
-      id: 9,
-      src: "olive.png",
-      name: "Olive Oil - Healthy cooking oil rich in antioxidants",
-      price: "120.00",
-      prePrice: "150.00",
-    },
-    {
-      id: 10,
-      src: "salmon.png",
-      name: "Salmon - High in Omega-3 fatty acids and protein",
-      price: "300.00",
-      prePrice: "350.00",
-    },
-    {
-      id: 11,
-      src: "breast.png",
-      name: "Chicken Breast - Lean protein for muscle growth",
-      price: "220.00",
-      prePrice: "260.00",
-    },
-    {
-      id: 12,
-      src: "mutton.png",
-      name: "Mutton - Rich in iron and essential nutrients",
-      price: "450.00",
-      prePrice: "500.00",
-    },
-  ]);
-
   const [cartItems, setCartItems] = useState([]);
   const [cartCount, setCartCount] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
@@ -130,9 +99,7 @@ const Context = ({ children }) => {
           item.id === id ? { ...item, quantity: item.quantity + 1 } : item
         );
       } else {
-        const foundProduct =
-          flashSale.find((item) => item.id === id) ||
-          newProducts.find((item) => item.id === id);
+        const foundProduct = flashSale.find((item) => item.id === id);
         if (!foundProduct) return prevCart;
 
         return [...prevCart, { ...foundProduct, quantity: 1 }];
@@ -158,13 +125,12 @@ const Context = ({ children }) => {
     <Cart.Provider
       value={{
         flashSale,
-        newProducts,
         cartItems,
         cartCount,
         addToCart,
         removeFromCart,
         searchQuery,
-        setSearchQuery, // <-- Add this to make it accessible in Navbar & Products
+        setSearchQuery,
       }}
     >
       {children}

@@ -34,12 +34,12 @@ const CartComponent = () => {
               <p className="text-gray-500 text-sm">Quantity: {item.quantity}</p>
 
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 mt-3 sm:mt-4">
-                <button
+                {/* <button
                   className="px-3 sm:px-4 py-2 bg-green-500 text-white rounded-lg flex items-center gap-1 sm:gap-2 shadow-md hover:bg-green-600 transition-all text-sm sm:text-base"
                   onClick={() => addToCart(item.id)}
                 >
                   <FaPlus /> Add
-                </button>
+                </button> */}
                 <button
                   className="px-3 sm:px-4 py-2 bg-red-500 text-white rounded-lg flex items-center gap-1 sm:gap-2 shadow-md hover:bg-red-600 transition-all text-sm sm:text-base"
                   onClick={() => removeFromCart(item.id)}

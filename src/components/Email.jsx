@@ -25,7 +25,7 @@ const Email = () => {
 
   return (
     <div className="border border-black w-[87%] m-auto my-8 bg-[url('bg.png')] h-auto lg:h-[450px] bg-center bg-cover rounded-4xl flex flex-col lg:flex-row justify-center lg:justify-around items-center py-10 px-6 lg:px-10 gap-8">
-      {/* Left Content - Always Visible */}
+      {/* Left side starts */}
       <div className="flex flex-col gap-5 max-w-lg text-center lg:text-left">
         <p className="text-[36px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-[1.2] text-white">
           Don't Miss Out on Grocery Deals
@@ -58,13 +58,15 @@ const Email = () => {
           </button>
         </form>
       </div>
+      {/* Left side ends */}
 
-      {/* Right Image - Hidden on Mobile & Tablet, Visible on Desktop */}
+      {/* right image*/}
       <img
         src="email.png"
         alt="Newsletter"
         className="w-[350px] md:w-[400px] lg:w-[450px] h-auto hidden lg:block"
       />
+      {/* right image*/}
     </div>
   );
 };

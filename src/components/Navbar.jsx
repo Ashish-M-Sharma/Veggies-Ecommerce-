@@ -2,10 +2,12 @@ import React, { useContext, useState } from "react";
 import { BiCartAlt } from "react-icons/bi";
 import { RiMenu2Line } from "react-icons/ri";
 import { IoCallOutline } from "react-icons/io5";
+// import { FaArrowUp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { Cart } from "../context/Context";
 
 const Navbar = () => {
+  //  search menu :
   const options = [
     { id: 1, name: "All Categories", value: "All Categories" },
     { id: 2, name: "Rice", value: "Rice" },
@@ -29,8 +31,11 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Fixed Top Section */}
-      <div className="fixed top-0 w-full m-auto bg-white shadow-md z-50 py-3 flex justify-around items-center">
+      {/* fixed section starts */}
+      <div
+        className="fixed top-0 w-full m-auto bg-white shadow-md z-50 py-3 flex justify-around items-center "
+        id="Above"
+      >
         <NavLink to="/">
           {" "}
           <img
@@ -40,7 +45,7 @@ const Navbar = () => {
           />
         </NavLink>
 
-        {/* Search Bar */}
+        {/* search bar starts */}
         <div className="hidden lg:flex border-gray-300 items-center border-2 w-[600px] h-13 rounded-full overflow-hidden">
           <div className="flex items-center">
             <select
@@ -65,6 +70,7 @@ const Navbar = () => {
             className="flex-1 p-2 text-center bg-transparent outline-none focus:ring-0"
           />
         </div>
+        {/* search bar ends */}
 
         {/* Cart Section */}
         <div className="flex">
@@ -81,8 +87,9 @@ const Navbar = () => {
           </NavLink>
         </div>
       </div>
+      {/* fixed section ends */}
 
-      {/* Scrollable Navigation Menu */}
+      {/* Navigation bar */}
       <nav className="w-full pt-26 flex justify-between px-6 lg:px-28 py-2 bg-primary text-white relative">
         {/* Menu Toggle Button */}
         <span className="flex items-center gap-3">
@@ -93,7 +100,7 @@ const Navbar = () => {
           <p className="hidden lg:block">Browse Categories</p>
         </span>
 
-        {/* Desktop Menu (Always Visible on LG) */}
+        {/* Navbar Items*/}
         <div className="hidden lg:flex items-center gap-4">
           <NavLink to="/">Home</NavLink>
           <p>Shop</p>
@@ -103,7 +110,7 @@ const Navbar = () => {
           <p>Contact Us</p>
         </div>
 
-        {/* Mobile & Tablet Menu (Toggleable) */}
+        {/* Navbar Items for responsivness */}
         <div
           className={`absolute top-full left-0 w-full bg-primary text-white flex flex-col items-center gap-4 py-4 lg:hidden transition-all duration-300 ${
             menuOpen ? "block" : "hidden"

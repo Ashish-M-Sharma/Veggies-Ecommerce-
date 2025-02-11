@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 px-3 py-6 pt-18 mt-18">
       <div className="container mx-auto px-5 lg:px-10">
-        {/* Footer Grid */}
+        {/* Footer starts*/}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 text-center lg:text-left">
-          {/* About The Shop */}
+          {/* About the shop starts */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">
               About The Shop
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products */}
+          {/* Products starts*/}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Products</h3>
             <ul className="space-y-2 text-sm">
@@ -65,8 +65,9 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+          {/* Products ends*/}
 
-          {/* Our Company */}
+          {/* company starts*/}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">
               Our Company
@@ -88,8 +89,9 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+          {/* company ends*/}
 
-          {/* Your Account */}
+          {/* Account starts */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">
               Your Account
@@ -111,8 +113,9 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+          {/* Account ends */}
 
-          {/* Download App */}
+          {/* App starts */}
           <div className="sm:col-span-2 lg:col-span-1">
             <h3 className="text-lg font-semibold mb-4 text-white">
               Download App
@@ -134,12 +137,13 @@ const Footer = () => {
               />
             </div>
           </div>
+          {/* App ends */}
         </div>
 
-        {/* Divider */}
+        {/* Section 2 */}
         <div className="border-t border-gray-700 my-8"></div>
 
-        {/* Bottom Section */}
+        {/* Bottom section starts */}
         <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:text-left gap-5">
           <p className="text-sm">
             Copyright © 2025{" "}
@@ -147,7 +151,7 @@ const Footer = () => {
             Reserved.
           </p>
 
-          {/* Social Icons */}
+          {/* social media starts */}
           <div className="flex space-x-4">
             {[FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube].map(
               (Icon, index) => (
@@ -158,8 +162,9 @@ const Footer = () => {
               )
             )}
           </div>
+          {/* social media ends */}
 
-          {/* Payment Icons - Hidden on Mobile */}
+          {/* payment icons starts */}
           <div className="hidden lg:flex space-x-2">
             {["visa.png", "mastercard.png", "paypal.png"].map((src) => (
               <img
@@ -170,7 +175,9 @@ const Footer = () => {
               />
             ))}
           </div>
+          {/* payment icons ends */}
         </div>
+        {/* Bottom section ends */}
       </div>
     </footer>
   );

@@ -41,12 +41,12 @@ const ChooseUs = () => {
 
   return (
     <>
-      <p className="text-[24px] px-12 mt-8 mx-auto my-8 font-semibold text-center">
+      <p className="text-[24px] px-26 mt-8 mx-auto my-8 font-semibold">
         Why Choose Us
       </p>
 
       <div className="w-[87%] mx-auto flex flex-col md:flex-col lg:flex-row items-center gap-8">
-        {/* Left Side - Feature Buttons */}
+        {/* Left side starts */}
         <div className="w-full lg:w-1/3 flex flex-col gap-6">
           {features.map((feature, index) => (
             <div
@@ -68,8 +68,9 @@ const ChooseUs = () => {
             </div>
           ))}
         </div>
+        {/* Left side starts */}
 
-        {/* Middle Section - Feature Image */}
+        {/* Middle section starts */}
         <div className="w-full lg:w-1/3 flex justify-center">
           <img
             src={selectedFeature.image}
@@ -77,8 +78,9 @@ const ChooseUs = () => {
             className="w-full max-w-[350px] transition-all duration-300"
           />
         </div>
+        {/* Middle section starts */}
 
-        {/* Right Side - Feature Description */}
+        {/* Right side starts */}
         <div className="w-full lg:w-1/3 flex flex-col gap-4 px-4">
           <p className="text-[22px] font-bold">{selectedFeature.intro}</p>
           <p className="text-[16px] text-gray-600">
@@ -88,6 +90,7 @@ const ChooseUs = () => {
             {selectedFeature.description2}
           </p>
         </div>
+        {/* Right side ends */}
       </div>
     </>
   );
