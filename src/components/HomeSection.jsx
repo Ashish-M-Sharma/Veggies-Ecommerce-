@@ -50,7 +50,7 @@ const HomeSection = () => {
 
       <FaArrowUp
         onClick={scrollToTop}
-        className="bg-black text-white size-12 rounded-full p-3 fixed right-3 bottom-5 cursor-pointer"
+        className="bg-black text-white size-13 rounded-full p-3 fixed right-3 bottom-5 cursor-pointer "
       />
     </>
   );
