@@ -1,0 +1,180 @@
+{
+  "FlashSale": [
+    {
+      "id": 1,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/1.png",
+      "thumbnail1": "orange1.png",
+      "thumbnail2": "orange2.png",
+      "thumbnail3": "orange3.png",
+      "rating": "",
+      "name": "Orange - Sweet and healthy Vitamin C fruit",
+      "price": "45.00",
+      "prePrice": "50.00",
+      "isAdded": false
+    },
+    {
+      "id": 2,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/2.png",
+      "thumbnail1": "strawberry1.png",
+      "thumbnail2": "strawberry2.png",
+      "thumbnail3": "strawberry3.png",
+      "rating": "",
+      "name": "Strawberry - Juicy and rich in antioxidants",
+      "price": "70.00",
+      "prePrice": "100.00",
+      "isAdded": false
+    },
+    {
+      "id": 3,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/3.png",
+      "thumbnail1": "capsicum1.png",
+      "thumbnail2": "capsicum2.png",
+      "thumbnail3": "capsicum3.png",
+      "rating": "",
+      "name": "Capsicum - Crunchy and full of Vitamin C",
+      "price": "40.00",
+      "prePrice": "60.00",
+      "isAdded": false
+    },
+    {
+      "id": 4,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/4.png",
+      "thumbnail1": "parsely1.png",
+      "thumbnail2": "parsely2.png",
+      "thumbnail3": "parsely3.png",
+      "rating": "",
+      "name": "Curly Parsley - A flavorful herb with health benefits",
+      "price": "50.00",
+      "prePrice": "80.00",
+      "isAdded": false
+    },
+    {
+      "id": 5,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/5.png",
+      "thumbnail1": "corn1.png",
+      "thumbnail2": "corn2.png",
+      "thumbnail3": "corn3.png",
+      "rating": "",
+      "name": "Corn - Rich in fiber, vitamins, and minerals",
+      "price": "30.00",
+      "prePrice": "40.00",
+      "isAdded": false
+    },
+    {
+      "id": 6,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/6.png",
+      "thumbnail1": "cabbage1.png",
+      "thumbnail2": "cabbage2.png",
+      "thumbnail3": "cabbage3.png",
+      "rating": "",
+      "name": "Cabbage - Low in calories, rich in Vitamin C and fiber",
+      "price": "35.00",
+      "prePrice": "45.00",
+      "isAdded": false
+    },
+    {
+      "id": 7,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/7.png",
+      "thumbnail1": "winter1.png",
+      "thumbnail2": "winter2.png",
+      "thumbnail3": "winter3.png",
+      "rating": "",
+      "name": "Winter Vegetables - are a great source of vitamins",
+      "price": "45.00",
+      "prePrice": "60.00",
+      "isAdded": false
+    },
+    {
+      "id": 8,
+      "src": "https://vegshops.vercel.app/assets/img/flash_sale/8.png",
+      "thumbnail1": "tomato1.png",
+      "thumbnail2": "tomato2.png",
+      "thumbnail3": "tomato3.png",
+      "rating": "",
+      "name": "Tomato-Hign in vitamin A and C, potassium, and anioxidants",
+      "price": "35.00",
+      "prePrice": "45.00",
+      "isAdded": false
+    }
+  ],
+  "NewProducts": [
+    {
+      "id": 9,
+      "src": "olive.png",
+      "thumbnail1": "olive1.png",
+      "thumbnail2": "olive2.png",
+      "thumbnail3": "olive3.png",
+      "rating": "",
+      "name": "Olive Oil - Healthy cooking oil rich in antioxidants",
+      "price": "120.00",
+      "prePrice": "150.00",
+      "isAdded": false
+    },
+    {
+      "id": 10,
+      "src": "salmon.png",
+      "thumbnail1": "salmon1.png",
+      "thumbnail2": "salmon2.png",
+      "thumbnail3": "salmon3.png",
+      "rating": "",
+      "name": "Salmon - High in Omega-3 fatty acids and protein",
+      "price": "300.00",
+      "prePrice": "350.00",
+      "isAdded": false
+    },
+    {
+      "id": 11,
+      "src": "breast.png",
+      "rating": "",
+      "name": "Chicken Breast - Lean protein for muscle growth",
+      "price": "220.00",
+      "prePrice": "260.00",
+      "isAdded": false
+    },
+    {
+      "id": 12,
+      "src": "mutton.png",
+      "rating": "",
+      "name": "Mutton - Rich in iron and essential nutrients",
+      "price": "450.00",
+      "prePrice": "500.00",
+      "isAdded": false
+    },
+    {
+      "id": 13,
+      "src": "sunflower.png",
+      "rating": "",
+      "name": "Sunflower Oil - Light and healthy cooking oil",
+      "price": "90.00",
+      "prePrice": "110.00",
+      "isAdded": false
+    },
+    {
+      "id": 14,
+      "src": "almonds.png",
+      "rating": "",
+      "name": "Almonds - Nutrient-dense snack rich in healthy fats",
+      "price": "250.00",
+      "prePrice": "300.00",
+      "isAdded": false
+    },
+    {
+      "id": 15,
+      "src": "brown.png",
+      "rating": "",
+      "name": "Brown Rice - High-fiber alternative to white rice",
+      "price": "80.00",
+      "prePrice": "100.00",
+      "isAdded": false
+    },
+    {
+      "id": 16,
+      "src": "yoghurt.png",
+      "rating": "",
+      "name": "Greek Yogurt - Protein-packed and probiotic-rich",
+      "price": "150.00",
+      "prePrice": "180.00",
+      "isAdded": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url("./assets/fonts/fonts.css");
+
+@theme {
+  --color-primary: #01693a;
+  --color-secondary: #991b1b;
+  --color-accent: #15803d;
+}
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
