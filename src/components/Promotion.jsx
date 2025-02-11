@@ -4,7 +4,7 @@ const Promotion = () => {
   return (
     <div className="w-[87%] m-auto flex flex-wrap md:flex-nowrap gap-8 mt-22">
       {/* Left Section starts */}
-      <div className="w-full md:w-1/2 border border-primary bg-[url('1.png')] h-[400px] bg-cover bg-center rounded-4xl flex flex-col items-start justify-start gap-5 px-10 py-17">
+      <div className="w-full md:w-1/2 border border-primary bg-[url('https://vegshops.vercel.app/assets/img/promo/1.png')] h-[400px] bg-cover bg-center rounded-4xl flex flex-col items-start justify-start gap-5 px-10 py-17">
         <p className="text-[32px] md:text-[37px] font-[400] leading-[44.4px] text-primary">
           Pure & Organic
         </p>
@@ -21,7 +21,7 @@ const Promotion = () => {
       {/* Left Section ends */}
 
       {/* Right section starts */}
-      <div className="w-full md:w-1/2 border border-primary bg-[url('2.png')] h-[400px] bg-cover bg-center rounded-4xl flex flex-col items-start justify-start gap-5 px-10 py-17">
+      <div className="w-full md:w-1/2 border border-primary bg-[url('https://vegshops.vercel.app/assets/img/promo/2.png')] h-[400px] bg-cover bg-center rounded-4xl flex flex-col items-start justify-start gap-5 px-10 py-17">
         <p className="text-[32px] md:text-[37px] font-[400] leading-[44.4px] text-primary">
           Healthy Eating
         </p>

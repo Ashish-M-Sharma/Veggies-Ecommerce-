@@ -2,7 +2,7 @@ import React from "react";
 
 const Promotion2 = () => {
   return (
-    <div className="w-[87%] border-2 border-black m-auto my-20 bg-[url('4.png')] h-[400px] bg-cover bg-center bg-no-repeat rounded-4xl flex items-center">
+    <div className="w-[87%] border-2 border-black m-auto my-20 bg-[url('https://vegshops.vercel.app/assets/img/discount/1.png')] h-[400px] bg-cover bg-center bg-no-repeat rounded-4xl flex items-center">
       <div className="flex flex-col items-start gap-4 md:gap-6 px-6 sm:px-8 md:px-12 py-8 sm:py-10 md:py-12">
         <button className="text-[16px] sm:text-[18px] md:text-[20px] font-[500] leading-[36px] text-white bg-orange-400 px-6 sm:px-8 md:px-10 py-2 rounded-full">
           Up to 50% off

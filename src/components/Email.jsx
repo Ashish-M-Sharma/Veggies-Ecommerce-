@@ -24,7 +24,7 @@ const Email = () => {
   };
 
   return (
-    <div className="border border-black w-[87%] m-auto my-8 bg-[url('bg.png')] h-auto lg:h-[450px] bg-center bg-cover rounded-4xl flex flex-col lg:flex-row justify-center lg:justify-around items-center py-10 px-6 lg:px-10 gap-8">
+    <div className="border border-black w-[87%] m-auto my-8 bg-[url('https://vegshops.vercel.app/assets/img/newsletter/bg.png')] h-auto lg:h-[450px] bg-center bg-cover rounded-4xl flex flex-col lg:flex-row justify-center lg:justify-around items-center py-10 px-6 lg:px-10 gap-8">
       {/* Left side starts */}
       <div className="flex flex-col gap-5 max-w-lg text-center lg:text-left">
         <p className="text-[36px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-[1.2] text-white">
