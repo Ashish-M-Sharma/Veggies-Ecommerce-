@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { BiCartAlt } from "react-icons/bi";
 import { RiMenu2Line } from "react-icons/ri";
 import { IoCallOutline } from "react-icons/io5";
-// import { FaArrowUp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { Cart } from "../context/Context";
 
